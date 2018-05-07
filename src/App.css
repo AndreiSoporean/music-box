@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+
+
+:root {
+  --primary: #ddd;
+  --dark: #333;
+  --light: #fff;
+  --shadow: 3px 1px 5px #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #34495E;
+  height: 100px;
+  padding: 20px;
+  color: white;
+  box-shadow: var(--shadow);
+}
+
+.App-title {
+  font-size: 1.5em;
+  text-shadow: 1px 1px 2px #333;
+  font-family: 'Roboto Slab', serif;
+}
+
+.btn {
+  background: var(--dark);
+  color: var(--light);
+  padding: 0.6rem 1.3rem;
+  text-decoration: none;
+  border: 0;
+
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.toolbar {
+  display: grid;
+  margin-bottom: 20px;
+  background-color: #E74C3C;
+  color: var(--primary);
+  grid-template-areas:
+    'current-info current-info'
+    'stop                 play'
+    ' visualizer visualizer ';
+}
+
+.stop {
+  grid-area: stop;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  justify-self: end;
+  transition: 0.3s;
+}
+
+.stop:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.play {
+  grid-area: play;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  justify-self: start;
+  transition: 0.3s;
+}
+
+.play:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+
+.visualizer {
+  grid-area: visualizer;
+  align-self: center;
+  justify-self: center;
+  
+}
+
+.play-circle {
+ width: 30px;
+ height: 30px;;
+ padding-left: 40%;
+ margin-bottom: 10px; 
+}
+
+.current-info {
+  grid-area: current-info;
+  color:var(--light);
+}
+.info-wrapper {
+  position:relative;
+  margin-top: -44%;
+  line-height:0;
+}
+
+.info-wrapper h5 {
+  text-align: center;
+  color:var(--light);
+  font-size: 1.2rem;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 1px 1px 2px #333;
+}
+
+.info-wrapper p {
+  text-align: center;
+  color:var(--light);
+  font-size: 1rem;
+  text-shadow: 1px 1px 2px #333;
+  
+  
+}
+.boxes {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.box {
+ 
+  overflow: hidden;
+  
+}
+
+.box img {
+  width: 100%;
+  transition: 0.3s;
+}
+
+.box:hover img {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.App-footer {
+  background-color: #34495E;
+  height: 100px;
+  margin-top: 10px;
+  color: white;
+}

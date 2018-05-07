@@ -1,0 +1,55 @@
+{
+    "artists": [
+      {
+        "name": "Imagine Dragons",
+		    "url": "http://estia.ro/andreisoporean/musicbox/covers/imagine-dragons.jpg",
+        "_id": "001"
+      },
+      {
+        "name": "The Chainsmokers",
+		    "url": "http://estia.ro/andreisoporean/musicbox/covers/chainsmokers.jpg",
+        "_id": "002"
+      },
+      {
+        "name": "Lost Frequencies",
+		    "url": "http://estia.ro/andreisoporean/musicbox/covers/lost-frequencies.jpg",
+        "_id": "003"
+      },
+      {
+        "name": "Disclosure",
+		    "url": "http://estia.ro/andreisoporean/musicbox/covers/disclosure.jpg",
+        "_id": "004"
+      },
+      {
+        "name": "Anne Marie",
+		    "url": "http://estia.ro/andreisoporean/musicbox/covers/anne-marie.jpg",
+        "_id": "005"
+      },
+      {
+        "name": "Rudimental",
+		    "url": "http://estia.ro/andreisoporean/musicbox/covers/rudimental.jpg",
+        "_id": "006"
+      },
+      {
+        "name": "Robin Schulz",
+		    "url": "http://estia.ro/andreisoporean/musicbox/covers/robin-schulz.jpg",
+        "_id": "007"
+      },
+      {
+        "name": "Bruno Mars",
+		    "url": "http://estia.ro/andreisoporean/musicbox/covers/bruno.jpg",
+        "_id": "008"
+      },
+      {
+        "name": "Rag N Bone",
+		    "url": "http://estia.ro/andreisoporean/musicbox/covers/rag.jpg",
+        "_id": "009"
+      },
+      {
+        "name": "Tom Odell",
+		    "url": "http://estia.ro/andreisoporean/musicbox/covers/tom-odell.jpg",
+        "_id": "010"
+      }
+      
+    ]
+}
